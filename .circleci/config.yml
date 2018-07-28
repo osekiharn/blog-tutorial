@@ -18,4 +18,4 @@ jobs:
 
     steps:
       - checkout
-      - run: git clone git@github.com:sinpaout/Bwild.git && ls -lsFG
+      - run: git clone git@github.com:osekiharn/Bwild.git && ls -lsFG
