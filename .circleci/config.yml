@@ -18,5 +18,4 @@ jobs:
 
     steps:
       - checkout
-      - run: ls -alFG && node -v
-
+      - run: git clone https://github.com/sinpaout/Bwild.git && ls -lsFG
