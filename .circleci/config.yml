@@ -30,8 +30,9 @@ jobs:
             yarn
             yarn build:content
             yarn deploy
-            cp out/** ../docs && ls -alFG
-
-            # echo "<h2>hello world</h2>" > docs/index.html
-            # git commit -a --amend --no-edit
-            # git push -f origin HEAD
+            cp -rf out/** ../docs && ls -alFG
+            cd ..
+            rm -rf Bwild
+            git add -A .
+            git commit -a --amend --no-edit
+            git push -f origin HEAD
