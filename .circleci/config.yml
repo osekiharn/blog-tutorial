@@ -33,6 +33,6 @@ jobs:
             cp -rf out/** ../docs && ls -alFG
             cd ..
             rm -rf Bwild
-            git add -A .
-            git commit -a --amend --no-edit
-            git push -f origin HEAD
+            # git add -A .
+            # git commit -a --amend --no-edit
+            # git push -f origin HEAD
